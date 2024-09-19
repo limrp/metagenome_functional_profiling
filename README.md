@@ -149,7 +149,3 @@ M,2,DCFCAC,Cell wall/membrane/envelope biogenesis
 ## Contact
 
 For any questions or issues regarding this script, feel free to contact the project maintainer.
-
----
-
-Let me know if you'd like any adjustments to this README file!
