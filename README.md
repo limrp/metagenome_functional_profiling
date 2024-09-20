@@ -2,6 +2,11 @@
 
 This project processes metagenomic samples by summarizing the functional categories of proteins based on COG (Clusters of Orthologous Groups) annotations. It generates both non-normalized and normalized data outputs for functional profiling.
 
+The COG annotations and data files used in this project were **downloaded from the NCBI COG Project**. More details on the COG project can be found here:
+**[NCBI COG Project](https://www.ncbi.nlm.nih.gov/research/cog-project/)**. 
+
+The `cog-24.fun.edited.tab`, with just a few changes from the original, can be found in this repository.
+
 The script takes sample `.tsv` files, COG definitions, and COG functional categories files as input and outputs two CSV files:
 - `non_normalized.csv`: Contains the raw counts of functional categories.
 - `normalized.csv`: Contains the relative abundance (normalized counts) of functional categories.
@@ -49,6 +54,8 @@ S3_00017    COG:COG1538
 
 - **COG Functional Categories File (`cog-24.fun.edited.tab`)**: A tab-delimited file mapping functional category IDs to their groups and descriptions. Expected columns:
   - `COG Functional category ID`, `Functional group`, `RGB color`, `FC description`
+
+The **COG files were downloaded from [NCBI's COG Project](https://www.ncbi.nlm.nih.gov/research/cog-project/)**. The COG database is an invaluable resource for classifying proteins from complete genomes based on orthologous relationships and is widely used for functional profiling in metagenomic studies.
 
 ### Output Files
 
