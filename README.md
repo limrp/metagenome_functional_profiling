@@ -1,4 +1,4 @@
-# Functional Profiling of Metagenomic Samples
+# Functional Profiling of Metagenomic Samples using the COG database from NCBI and PROKKA's COG annotations
 
 This project processes metagenomic samples by summarizing the functional categories of proteins based on COG (Clusters of Orthologous Groups) annotations. It generates both non-normalized and normalized data outputs for functional profiling.
 
